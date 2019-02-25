@@ -29,7 +29,7 @@ class Fib extends Component {
             index: this.state.index
         });
 
-        this.setState({ index: '' })
+        this.setState({ index: '' });
     };
 
     renderSeenIndexes() {
@@ -43,6 +43,8 @@ class Fib extends Component {
                 <div key={key}>For index {key} I calculated {this.state.values[{key}]}</div>
             );
         }
+
+        return entries;
     }
 
     render() {
