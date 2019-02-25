@@ -15,8 +15,8 @@ class App extends Component {
                         <p>
                             Edit <code>src/App.js</code> and save to reload.
                         </p>
-                        <Link to="/">Home<Link/>
-                        <Link to="/otherpage">Other Page<Link/>
+                        <Link to="/">Home</Link>
+                        <Link to="/otherpage">Other Page</Link>
                         <a
                             className="App-link"
                             href="https://reactjs.org"
@@ -31,7 +31,7 @@ class App extends Component {
                         <Route exact path="/otherpage" component={OtherPage} />
                     </div>
                 </div>
-            <Router/>
+            </Router>
          );
     }
 }
